@@ -2,32 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply text-black;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  :root {
+    --background: 206 69% 100%;
+    --foreground: 206 60% 2%;
+    --muted: 206 27% 86%;
+    --muted-foreground: 206 7% 34%;
+    --popover: 206 69% 100%;
+    --popover-foreground: 206 60% 2%;
+    --card: 206 69% 100%;
+    --card-foreground: 206 60% 2%;
+    --border: 206 5% 93%;
+    --input: 206 5% 93%;
+    --primary: 206 99% 35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 206 13% 89%;
+    --secondary-foreground: 206 13% 29%;
+    --accent: 206 22% 83%;
+    --accent-foreground: 206 22% 23%;
+    --destructive: 0 99% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 206 99% 35%;
+    --radius: 0.5rem;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .dark {
+    --background: 206 44% 1%;
+    --foreground: 206 24% 100%;
+    --muted: 206 27% 14%;
+    --muted-foreground: 206 7% 66%;
+    --popover: 206 44% 1%;
+    --popover-foreground: 206 24% 100%;
+    --card: 206 44% 1%;
+    --card-foreground: 206 24% 100%;
+    --border: 206 5% 13%;
+    --input: 206 5% 13%;
+    --primary: 206 99% 35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 206 5% 13%;
+    --secondary-foreground: 206 5% 73%;
+    --accent: 206 11% 21%;
+    --accent-foreground: 206 11% 81%;
+    --destructive: 0 99% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 206 99% 35%;
+  }
+
+  .content-container {
+    @apply max-w-[1440px] w-full mx-auto px-4
+  }
+
+  .bgGradient {
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0) -20%, #1d1d1d9e 100%);
   }
 }

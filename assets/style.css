@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans:wght@400&display=swap&family=Cormorant+SC:wght@300&V&family=IM+Fell+DW+Pica+SC&family=Jolly+Lodger&family=Jura&family=Mountains+of+Christmas&family=Ubuntu&family=Unica+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hideNav{
+    display: none !important;
+}
+
+.nav-item .hideNav{
+    display: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-logo {
+    max-width: 100px;
+}
+
+/* #navbarNavDropdown {
+    display: none !important;
+} */
+.nav-item,
+.dropdown-item {
+    font-size: 14px;
+}
+
+.header,
+.dropdown-menu {
+    background-color: #0165b3 !important;
+}
+
+.nav-link,
+.dropdown-item {
+    color: white !important;
+}
+
+#section1 {
+    scroll-margin-top: 400px;
+}
+
+#section2 {
+    scroll-margin-top: 400px;
+}
+
+#section3 {
+    scroll-margin-top: 400px;
+}
+
+#about-schedule-body .card-link .card-body {
+    transition: background-color 0.2s ease;
+    border-radius: 10px; 
+}
+
+#about-schedule-body .card-link:hover .card-body {
+    background-color: #0165b3; 
+    border-radius: 10px; 
+    color: white;
+}
+
+#about-schedule-body .card-link.active .card-body {
+    background-color: #0165b3; 
+    color: white;
+    border-radius: 10px; 
+}
+
+#about-schedule-body .active-card {
+    background-color: #0165b3; 
+    color: white !important;
+}
+
+#about-schedule-body .card-link .card {
+    border-radius: 10px; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.full-width-text {
+    width: 100%;
+    background-color: #ffcccc; 
+    color: #ff0000; 
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.full-width-text2 {
+    width: 100%;
+    background-color: #cddcff; 
+    color: #009dff; 
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.full-width-text3 {
+    width: 100%;
+    background-color: #ffcccc; 
+    color: #000000; 
+    padding: 3px;
+    font-weight: 500;
+    font-size:smaller;
+    border: none;
+    text-align: left;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: rgb(253, 252, 253) !important;
+    font-weight: bolder;
+}
+
+.dropdown-item:hover {
+    color: rgb(53, 38, 50) !important;
+}
+
+.home-text p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.conference-info h2 {
+    font-size: 33px;
+    /* margin-top: -70px; */
+    /* margin-bottom: 70px; */
+    text-align: center;
+}
+
+.conference-date {
+    color: #0165b3;
+
+}
+
+.text-reset{
+    text-decoration: none;
+}
+
+.ssn-logo-container img {
+    max-width: 250px;
+    height: 50px;
+}
+
+.wispnet-logo-container img {
+    max-width: 450px;
+    height: 80px;
+}
+
+.img-fluid.img-with-shadow {
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.common-logo {
+    width: 50%;
+    height: auto;
+}
+
+.page-title{
+    color: #0165b3;
+    padding-top: 15px;
+}
+.horizontal-line{
+    color: #3f2c03;
+}
+
+.about-ssn-content{
+    text-align: justify;
+}
+
+.chief{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chief-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-width {
+    width: 100%; 
+    margin: 0 auto; 
+    margin-left: -2%;
+}
+
+.speaker-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-address {
+    text-align: right;
+    margin-left: 20%;
+    font-size:large;
+}
+
+#about-committee-body h5{
+    color: #0165b3;
+}
+
+#about-committee-body span{
+    color: #0165b3;
+    font-size: 12px;    
+}
+
+#about-papersubmission-body span{
+    color: #0165b3;
+}
+
+#about-registration-body span{
+    color: #0165b3;
+}
+
+#Contact_us_organizers span{
+    color: #0165b3;
+}
+
+#about-contact-us-body .card-body {
+    background: linear-gradient(to bottom, #5e71ff, #1c8be0); 
+    color: white;
+}
+
+#about-contact-us-body .card-body a{
+    margin-left: 1%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.row p{
+    font-weight: 600;
+}
+
+.guide-text {
+    font-size:larger;
+}
+
+#about-presentation-body .btn-outline-custom {
+    color: #0165b3;
+    border-color: #0165b3;
+}
+
+#about-presentation-body .btn-outline-custom:hover {
+    background-color: #0165b3;
+    border-color: #0165b3;
+    color: #fff;
+}
+
+#about-callforpaper-body .btn-outline-custom {
+    color: #0165b3;
+    border-color: #0165b3;
+}
+
+#about-callforpaper-body .btn-outline-custom:hover {
+    background-color: #0165b3;
+    border-color: #0165b3;
+    color: #fff;
+}
+
+#about-papersubmission-body .btn-outline-custom {
+    color: #0165b3;
+    border-color: #0165b3;
+}
+
+#about-papersubmission-body .btn-outline-custom:hover {
+    background-color: #0165b3;
+    border-color: #0165b3;
+    color: #fff;
+}
+
+.table-details thead th{
+    background-color: orange;
+}
+
+#about-schedule-body .text-center h3 {
+    font-size: large;
+    color: #0165b3;
+    font-weight: 600;
+}
+
+/* speakers section styling */
+
+/* #speakers {
+    background-color: lightgray;
+    display: none;
+} */
+
+.carousel-rightcontent::-webkit-scrollbar {
+    width: 1em;
+}
+
+.carousel-rightcontent::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-rightcontent::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+
+.modal-dialog {
+    max-width: 100%
+}
+
+.speaker-card {
+    margin-bottom: 20px;
+}
+
+.modal-body {
+    display: flex;
+}
+
+.carousel-rightcontent {
+    overflow-y: auto;
+    flex-grow: 1;
+    max-height: 400px;
+
+}
+
+.scrollable-paragraph {
+    padding: 10px;
+}
+.blink {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 30px;
+} 
+    /* animation: blinker 3s linear infinite;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }*/
+    
+
+@media screen and (max-width: 768px) {
+    .conference-info h2 {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .ssn-logo-container img {
+        max-width: 200px;
+        height: 40px;
+    }
+
+    .wispnet-logo-container img {
+        max-width: 400px;
+        height: 60px;
+    }
+}
+
+.gray-color {
+    background-color: rgb(95, 90, 90);
+}
+
