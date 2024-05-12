@@ -10,7 +10,8 @@ module.exports = {
   prefix: "",
   theme: {
     backgroundImage: {
-      bgImage: "url(../assets/images/bannerimage.jpg)",
+      bgImage: "url(../assets/bannerImage.png)",
+      bgHome: "url(../assets/homeBanner.jpeg)",
     },
     container: {
       center: true,
@@ -21,7 +22,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        black: "#303030",
+        black: "#333333",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -74,6 +75,10 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      fontFamily: {
+        poppins: ["var(--font-poppins)"],
+        barlow: ["var(--font-barlow)"],
       },
     },
   },

@@ -16,41 +16,43 @@ import {
 
 const components = [
   {
-    title: "Registration",
-    href: "/registration",
+    title: "Core",
+    href: "/committee/organisers",
   },
   {
-    title: "Publication and Awards",
-    href: "/publication_and_awards",
+    title: "Advisory",
+    href: "/committee/advisory",
+  },
+  {
+    title: "Local",
+    href: "/committee/local",
   },
 ];
 
 export function NavMenu() {
   return (
-    <NavigationMenu className="hidden lg:flex">
+    <NavigationMenu className="hidden lg:flex h-full">
       <NavigationMenuList>
-        <Link href="/" legacyBehavior passHref>
-          <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            Home
-          </NavigationMenuLink>
-        </Link>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="bg-transparent text-white">
-            About us
-          </NavigationMenuTrigger>
+          <NavigationMenuTrigger>About</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-2 md:w-[350px]">
-              <ListItem href="/chief-patrons" title="Chief Patrons" />
-              <ListItem href="/about-us" title="About the department" />
-              <ListItem href="/about-ssn" title="About SSN" />
+              <ListItem href="/about-us#ssn" title="About SSN" />
+              <ListItem
+                href="/about-us#department"
+                title="About the department"
+              />
+              <ListItem
+                href="/about-us#conference"
+                title="About the conference"
+              />
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="bg-transparent text-white">
-            For Authors
-          </NavigationMenuTrigger>
+          <NavigationMenuTrigger>Organisers</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-2 md:w-[350px]">
               {components.map((component) => (
@@ -65,12 +67,35 @@ export function NavMenu() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <Link href="/publications_and_awards" legacyBehavior passHref>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+              Publications and Awards
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <Link href="/registration" legacyBehavior passHref>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+              Registration
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
         <NavigationMenuItem>
           <Link href="/contact-us" legacyBehavior passHref>
-            <NavigationMenuLink
-              className={`${navigationMenuTriggerStyle()} bg-transparent text-white`}
-            >
-              Contact Us
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+              Contact
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <Link href="/faq" legacyBehavior passHref>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+              Faq
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -87,7 +112,7 @@ const ListItem = React.forwardRef(
           <a
             ref={ref}
             className={cn(
-              "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+              "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-primary hover:text-white focus:bg-accent focus:text-accent-foreground",
               className
             )}
             {...props}

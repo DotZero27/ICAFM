@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 import { cn } from "@/lib/utils";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/logoWhite.svg";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "./ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -13,42 +13,47 @@ import { Menu } from "lucide-react";
 import Image from "next/image";
 
 const otherNav = [
-  { title: "Committee", href: "/committee" },
-  { title: "Key Dates", href: "/key-dates" },
-  { title: "Contact Us", href: "/contact-us" },
+  { title: "Publication and Awards", href: "/publication_and_awards" },
+  { title: "Registration", href: "/registration" },
+  { title: "Contact", href: "/contact-us" },
 ];
 const sidebarNav = [
   {
-    title: "About Us",
+    title: "About",
     items: [
       {
-        title: "Chief Patrons",
-        href: "/",
+        title: "SSN",
+        href: "/about-us#ssn",
         items: [],
       },
       {
-        title: "About Chennai",
-        href: "/",
+        title: "Department",
+        href: "/about-us#department",
         items: [],
       },
       {
-        title: "About SSN",
-        href: "/",
+        title: "Conference",
+        href: "/about-us#conference",
         items: [],
       },
     ],
   },
   {
-    title: "For Authors",
+    title: "Organisers",
     items: [
       {
-        title: "Registration",
-        href: "/",
+        title: "Core",
+        href: "/committee/organisers",
         items: [],
       },
       {
-        title: "Publication and Awards",
-        href: "/",
+        title: "Advisory",
+        href: "/committee/advisory",
+        items: [],
+      },
+      {
+        title: "Local",
+        href: "/committee/local",
         items: [],
       },
     ],
@@ -63,19 +68,25 @@ export function MobileNav() {
       <SheetTrigger asChild>
         <Button
           variant="ghost"
-          className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
+          className=" mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 lg:hidden"
         >
-          <Menu />
+          <Menu className="text-white" />
           <span className="sr-only">Toggle Menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="pr-0">
-        <MobileLink href="/" className="flex items-end" onOpenChange={setOpen}>
-          <Image src={Logo} className="mr-2 h-8 w-16" />
-          <span className="font-bold text-sm">ICAFM 2024</span>
+      <SheetContent side="left" className="pt-4 px-10">
+        <MobileLink
+          href="/"
+          className="flex items-center gap-2 py-5 px-8 bg-primary"
+          onOpenChange={setOpen}
+        >
+          <Image src={Logo} className="w-16 antialiased " alt="logo" />
+          <div className="font-barlow border-l border-white px-2 text-3xl text-white">
+            ICAFM-2024
+          </div>
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
-          <div className="flex flex-col space-y-2">
+          <div className="flex flex-col justify-between space-y-2">
             {sidebarNav.map((item, index) => (
               <div key={index} className="flex flex-col space-y-3 pt-6">
                 <h4 className="font-medium">{item.title}</h4>

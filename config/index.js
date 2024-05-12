@@ -1,0 +1,16 @@
+export const TOPICS = [
+    "Energy materials",
+    "Magnetic, multiferroic, semiconducting materials",
+    "High Tc superconductors, topological insulators",
+    "Luminescent and chromogenic materials",
+    "Transparent conducting and semiconducting ceramics",
+    "Electromagnetic metamaterials",
+    "Single Crystals and Thin films",
+    "Nano materials",
+    "Composites & Nano Composites",
+    "Polymers and Biopolymers",
+    "Electro ceramics and glasses",
+    "Soft Materials, Biomaterials and Healthcare Materials",
+    "Materials for biological applications",
+    "Radiation Measurements",
+  ];
