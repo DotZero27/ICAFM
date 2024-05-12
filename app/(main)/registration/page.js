@@ -132,7 +132,7 @@ export default function Registration() {
               </div>
 
               <div className="space-y-2">
-                <div className="font-bold">Men's hostel:</div>
+                <div className="font-bold">Men{"'"}s hostel:</div>
                 <div className="flex justify-between">
                   Dormitory Charges:
                   <span className="font-bold">Rs 441 <br/> (per day per person)</span>

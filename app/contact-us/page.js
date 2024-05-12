@@ -11,6 +11,7 @@ export default function page() {
         <Image
           src={HomeBanner}
           className="w-full h-[28vh] aspect-video object-cover absolute -z-20"
+          alt="homeBanner"
         />
         <div className="absolute bg-primary opacity-70 w-full h-[28vh] -z-10" />
         <div className="flex items-center justify-center text-white text-8xl z-10 h-[28vh] font-barlow font-bold">

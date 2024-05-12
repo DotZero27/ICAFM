@@ -42,7 +42,7 @@ const questions = [
         </div>
 
         <div className="mt-2">
-          <strong>Men's hostel:</strong>
+          <strong>Men{"'"}s hostel:</strong>
           <br />
           Dormitory Charges: Rs 441 (per day per person)
         </div>

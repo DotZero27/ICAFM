@@ -33,10 +33,10 @@ export default function PublicationsAndAwards() {
           </div>
           <div className="grid grid-cols-2 gap-8">
             <div>
-              "Manuscripts submitted will be peer-reviewed as per journal
+            {'"'}Manuscripts submitted will be peer-reviewed as per journal
               criteria and accepted manuscripts will be published in the special
               issue of the following Scopus-indexed journal(s). Information
-              about the journal and its scope can be found here:"
+              about the journal and its scope can be found here:{'"'}
             </div>
             <div className="row-start-2 text-primary font-bold mt-10">
               Selected papers will be published in Scopus/Web of Science indexed
