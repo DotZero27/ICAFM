@@ -53,7 +53,7 @@ export default function Registration() {
         </Link>
       </div>
 
-      <div className="px-4 sm:px-16">
+      <div>
         <div className="flex items-center gap-8">
           <div className="font-barlow font-semibold uppercase text-primary text-4xl whitespace-nowrap my-8">
             Important Announcement
