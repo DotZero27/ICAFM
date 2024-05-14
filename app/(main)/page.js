@@ -18,7 +18,7 @@ export default function Page() {
         />
 
         <div className="absolute -bottom-[35%] left-0 w-full flex items-center justify-center">
-          <div className="w-full bg-primary font-barlow font-bold  text-white text-8xl text-center mx-16 rounded-2xl py-28 pb-36 bg-bgImage bg-cover bg-no-repeat">
+          <div className="w-full bg-primary font-barlow font-bold  text-white text-7xl text-center mx-16 rounded-2xl py-28 pb-36 bg-bgImage bg-cover bg-no-repeat">
             <span className="font-normal text-5xl">WELCOME TO</span>
             <br />
             ICAFM-2024
@@ -28,7 +28,7 @@ export default function Page() {
       <div className="h-[27vh]" />
 
       <div className="px-4 mx-auto space-y-24 lg:max-w-[80%] xl:px-16">
-        <div className="text-center text-xl leading-relaxed">
+        <div className=" text-xl leading-relaxed text-justify">
           International conference on ‘Advanced Functional Materials’ is aimed
           at bringing together the scientists and experts to provide a common
           platform for sharing their scientific results, thoughts and ideas. The
