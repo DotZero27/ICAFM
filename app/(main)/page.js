@@ -138,7 +138,7 @@ export default function Page() {
         />
 
         <div className="absolute bottom-[20%] left-0 w-full flex items-center justify-center">
-          <div className="w-full bg-primary font-barlow font-bold  text-white text-8xl text-center mx-16 rounded-2xl py-28 pb-36 bg-bgImage bg-cover bg-no-repeat">
+          <div className="w-full bg-primary font-barlow font-bold  text-white text-8xl text-center mx-16 rounded-2xl py-14 sm:py-28 sm:pb-36 bg-bgImage bg-cover bg-no-repeat">
             <span className="font-normal text-5xl">WELCOME TO</span>
             <br />
             ICAFM-2024
