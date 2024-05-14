@@ -20,15 +20,15 @@ export default function Registration() {
           <div className="space-y-2 mt-2">
             <div className="flex justify-between">
               Student/Research scholars
-              <span className="font-bold text-primary">Rs. 500/-</span>
+              <span className="font-bold text-primary">Rs. 2000/-</span>
             </div>
             <div className="flex justify-between">
               Faculty members/Research Faculty
-              <span className="font-bold text-primary">Rs. 1000/-</span>
+              <span className="font-bold text-primary">Rs. 2500/-</span>
             </div>
             <div className="flex justify-between">
               Industry participants
-              <span className="font-bold text-primary">Rs. 1500/-</span>
+              <span className="font-bold text-primary">Rs. 4000/-</span>
             </div>
           </div>
         </div>
@@ -37,11 +37,11 @@ export default function Registration() {
           <div className="space-y-2 mt-2">
             <div className="flex justify-between">
               Student/Research scholars
-              <span className="font-bold text-primary">$ 20</span>
+              <span className="font-bold text-primary">$ 50</span>
             </div>
             <div className="flex justify-between">
               Faculty Members
-              <span className="font-bold text-primary">$ 40</span>
+              <span className="font-bold text-primary">$ 100</span>
             </div>
           </div>
         </div>
@@ -89,10 +89,6 @@ export default function Registration() {
               <div className="flex justify-between">
                 Notification of Acceptance
                 <span className="font-bold">15.09.2024 Onwards</span>
-              </div>
-              <div className="flex justify-between">
-                Registration Start Date
-                <span className="font-bold">01.09.2024</span>
               </div>
               <div className="flex justify-between">
                 Registration Closing Date

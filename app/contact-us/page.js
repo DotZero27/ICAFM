@@ -46,7 +46,7 @@ export default function page() {
               <div className="text-primary font-barlow font-bold text-4xl uppercase leading-normal">
                 Email:
               </div>
-              <div className="text-xl">icafm2024@gmail.com</div>
+              <div className="text-xl">icafm2024@ssn.edu.in</div>
             </div>
           </div>
 

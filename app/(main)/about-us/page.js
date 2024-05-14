@@ -1,6 +1,8 @@
 import HomeBanner from "@/assets/homeBanner.jpeg";
 import Image from "next/image";
 
+import SSN_Image from "@/assets/images/aboutSSN.jpeg"
+
 export default function AboutUs() {
   return (
     <section>
@@ -16,13 +18,14 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-y-24 max-w-7xl w-full mx-auto m-16 px-2 text-xl leading-loose">
+      <div className="flex flex-col gap-y-24 max-w-7xl w-full mx-auto m-16 px-2 text-xl leading-loose text-justify">
         <div id="ssn">
-          <div className="font-barlow font-bold uppercase text-white bg-primary rounded-xl text-4xl p-8 px-16">
+          <div className="font-barlow font-bold uppercase text-white bg-primary rounded-xl text-4xl p-8 px-16 text-start">
             About the college SSN
           </div>
           <div className="mt-8 space-y-8 mx-4 xl:mx-16">
-            <div className="w-full bg-[#D9D9D9] h-[35vh] rounded-xl" />
+            {/* <div className="w-full bg-[#D9D9D9] h-[35vh] rounded-xl" /> */}
+            <Image src={SSN_Image} className="w-full h-[35vh] rounded-xl object-cover"/>
             <div className="space-y-8">
               <div>
                 Sri Sivasubramaniya Nadar College of Engineering (SSN), an
@@ -54,7 +57,7 @@ export default function AboutUs() {
         </div>
 
         <div id="department">
-          <div className="font-barlow font-bold uppercase text-white bg-primary rounded-xl text-4xl p-8 px-16">
+          <div className="font-barlow font-bold uppercase text-white bg-primary rounded-xl text-4xl p-8 px-16 text-start">
             About the Department
           </div>
           <div className="mt-8 space-y-8 mx-4 xl:mx-16">
@@ -74,7 +77,7 @@ export default function AboutUs() {
         </div>
 
         <div id="conference">
-          <div className="font-barlow font-bold uppercase text-white bg-primary rounded-xl text-4xl p-8 px-16">
+          <div className="font-barlow font-bold uppercase text-white bg-primary rounded-xl text-4xl p-8 px-16 text-start">
             About the Conference
           </div>
           <div className="mt-8 space-y-8 mx-4 xl:mx-16">

@@ -14,6 +14,7 @@ import Image from "next/image";
 
 const otherNav = [
   { title: "Publication and Awards", href: "/publication_and_awards" },
+  { title: "Topics", href: "/topics" },
   { title: "Registration", href: "/registration" },
   { title: "Contact", href: "/contact-us" },
 ];
@@ -42,17 +43,17 @@ const sidebarNav = [
     title: "Organisers",
     items: [
       {
-        title: "Core",
+        title: "International Advisory Committee",
         href: "/committee/organisers",
         items: [],
       },
       {
-        title: "Advisory",
+        title: "National Advisory",
         href: "/committee/advisory",
         items: [],
       },
       {
-        title: "Local",
+        title: "Local Organising Committee",
         href: "/committee/local",
         items: [],
       },

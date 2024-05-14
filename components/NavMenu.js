@@ -16,15 +16,15 @@ import {
 
 const components = [
   {
-    title: "Core",
+    title: "International Advisory Committee",
     href: "/committee/organisers",
   },
   {
-    title: "Advisory",
+    title: "National Advisory",
     href: "/committee/advisory",
   },
   {
-    title: "Local",
+    title: "Local Organising Committee",
     href: "/committee/local",
   },
 ];
@@ -66,6 +66,14 @@ export function NavMenu() {
               ))}
             </ul>
           </NavigationMenuContent>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
+          <Link href="/topics" legacyBehavior passHref>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+              Topics
+            </NavigationMenuLink>
+          </Link>
         </NavigationMenuItem>
 
         <NavigationMenuItem>

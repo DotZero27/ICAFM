@@ -5,37 +5,46 @@ import Founder from "@/assets/images/founder.png";
 import Principal from "@/assets/images/principal.png";
 import President from "@/assets/images/president.png";
 
+import P_Ramasamy from "@/assets/images/organisers/p-ramasamy.jpg";
+import Kennedy from "@/assets/images/organisers/kennedy.webp";
+import Radha from "@/assets/images/organisers/radha.jpeg";
+import Convener from "@/assets/images/organisers/convener.webp";
+
 const COPATRONS = [
   {
     name: "Prof. V. E. Annamalai",
     designation: "Principal, SSN College of Engineering",
-    image: "",
+    image: Principal,
   },
   {
     name: "Prof. S. Radha",
     designation: "Vice Principal, SSN College of Engineering",
-    image: "",
+    image: Radha,
   },
   {
     name: "Prof. P. Ramasamy",
     designation: "Dean (Research), SSN College of Engineering",
-    image: "",
+    image: P_Ramasamy,
   },
 ];
 
 const COORDINATOR = [
   {
-    name: "Dr. S.M.M. Kennedy ",
+    name: "Prof. S.M.M. Kennedy ",
     designation: "Head, Department of Physics, SSN College of Engineering",
-    image: "",
+    image: Kennedy,
   },
 ];
 
 const CONVENER = [
   {
-    name: "Dr.G.ANANDHA BABU",
-    designation: <>Department of Physics <br/> SSN College of Engineering</>,
-    image: "",
+    name: "Dr. G. ANANDHA BABU",
+    designation: (
+      <>
+        Department of Physics <br /> SSN College of Engineering
+      </>
+    ),
+    image: Convener,
   },
 ];
 
@@ -58,7 +67,7 @@ export default function CommitteeOrganiser() {
       <div className="flex flex-col gap-10 md:flex-row justify-center max-w-7xl w-full mx-auto m-16 px-4 text-xl leading-loose sm:gap-24">
         <div className="grid grid-cols-[1fr_1.9fr] sm:grid-cols-[1fr_2.8fr]">
           <div className="col-span-2 flex justify-between items-end bg-primary rounded-xl gap-8">
-            <div className="font-barlow text-white font-bold left text-5xl py-24 px-10">
+            <div className="font-barlow text-white font-bold left text-5xl py-16 px-10">
               CHIEF PATRON
             </div>
             <Image src={Founder} alt="founder" />
@@ -88,9 +97,13 @@ export default function CommitteeOrganiser() {
           CO-PATRONS
         </div>
         <div className="sm:flex justify-between w-full gap-4 border-l-4 border-primary pl-16 ml-4 sm:ml-7 mt-8">
-          {COPATRONS.map(({ name, designation }, index) => (
+          {COPATRONS.map(({ name, designation, image }, index) => (
             <div key={index}>
-              <Image src={Principal} alt="principal" />
+              <Image
+                src={image || Principal}
+                alt="copatron_image"
+                className="w-[300px] h-[350px]"
+              />
               <div className="py-4">
                 <div className="text-2xl">{name}</div>
                 <div className="font-light">{designation} </div>
@@ -106,9 +119,13 @@ export default function CommitteeOrganiser() {
             CO-ORDINATOR
           </div>
           <div className="flex justify-between w-full gap-4 border-l-4 border-primary pl-16 ml-4 sm:ml-7 mt-8">
-            {COORDINATOR.map(({ name, designation }, index) => (
+            {COORDINATOR.map(({ name, designation, image }, index) => (
               <div key={index}>
-                <Image src={Principal} alt="principal" />
+                <Image
+                  src={image || Principal}
+                  alt="coordinator_image"
+                  className="w-[300px] h-[350px]"
+                />
                 <div className="py-4">
                   <div className="text-2xl">{name}</div>
                   <div className="font-light">{designation} </div>
@@ -123,9 +140,13 @@ export default function CommitteeOrganiser() {
             CONVENER
           </div>
           <div className="flex justify-between w-full gap-4 border-l-4 border-primary pl-16 ml-4 sm:ml-7 mt-8">
-            {CONVENER.map(({ name, designation }, index) => (
+            {CONVENER.map(({ name, designation, image }, index) => (
               <div key={index}>
-                <Image src={Principal} alt="principal" />
+                <Image
+                  src={image || Principal}
+                  alt="convener_image"
+                  className="w-[300px] h-[350px]"
+                />
                 <div className="py-4">
                   <div className="text-2xl">{name}</div>
                   <div className="font-light">{designation} </div>

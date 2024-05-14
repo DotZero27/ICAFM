@@ -21,7 +21,7 @@ export default function PublicationsAndAwards() {
         </div>
       </div>
 
-      <section className="max-w-7xl w-full mx-auto space-y-24 text-lg text-[#949494] mt-4">
+      <section className="max-w-7xl w-full mx-auto space-y-24 text-lg text-[#949494] mt-4 text-justify">
         <div>
           <div className="flex items-center gap-8">
             <div className="font-barlow font-semibold uppercase text-primary text-4xl whitespace-nowrap my-8">
@@ -33,10 +33,10 @@ export default function PublicationsAndAwards() {
           </div>
           <div className="grid grid-cols-2 gap-8">
             <div>
-            {'"'}Manuscripts submitted will be peer-reviewed as per journal
+              Manuscripts submitted will be peer-reviewed as per journal
               criteria and accepted manuscripts will be published in the special
               issue of the following Scopus-indexed journal(s). Information
-              about the journal and its scope can be found here:{'"'}
+              about the journal and its scope can be found here.
             </div>
             <div className="row-start-2 text-primary font-bold mt-10">
               Selected papers will be published in Scopus/Web of Science indexed
@@ -124,10 +124,6 @@ export default function PublicationsAndAwards() {
                 <div className="flex justify-between">
                   Notification of Acceptance
                   <span className="font-bold">15.09.2024 Onwards</span>
-                </div>
-                <div className="flex justify-between">
-                  Registration Start Date
-                  <span className="font-bold">01.09.2024</span>
                 </div>
                 <div className="flex justify-between">
                   Registration Closing Date
