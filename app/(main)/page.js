@@ -40,7 +40,7 @@ export default function Page() {
           and to evolve guidelines for their further research in India/Overseas.
         </div>
 
-        <div className="flex flex-col gap-14 lg:flex-row justify-between items-center bg-primary px-10 py-8 rounded-3xl">
+        {/* <div className="flex flex-col gap-14 lg:flex-row justify-between items-center bg-primary px-10 py-8 rounded-3xl">
           <div className="text-white space-y-2">
             <div className="text-4xl font-semibold">17-19th October 2024</div>
             <div className="text-sm">
@@ -58,7 +58,7 @@ export default function Page() {
               Register here
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="text-white mt-20 px-2 lg:px-16 speaker-gradient">
