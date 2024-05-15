@@ -1,5 +1,5 @@
 export const TOPICS = [
-  "Ferroelectric, Piezoelectric and Pyroelectric",
+  "Ferroelectric, Piezoelectric and Pyroelectric materials",
   "Energy materials",
   "Magnetic, multiferroic, semiconducting materials",
   "High Tc superconductors, topological insulators",

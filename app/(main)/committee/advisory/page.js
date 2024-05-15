@@ -24,11 +24,11 @@ const NATIONAL_MEMBERS = [
   "Dr. Justin Raj C, Vellore Institute of Technology, Chennai",
   "Dr. Kulkarni A R, Indian Institute of Technology-Bombay, Mumbai",
   "Dr. Mahanth Prasad, CSIR-Central Electronics Engineering Research Institute, Pilani",
-  "Dr. Moorthy Babu. S, Anna University, Chennai",
+  "Dr. Moorthy Babu S, Anna University, Chennai",
   "Dr. Pavan Nukala, Indian Institute of Science, Bengaluru",
   "Dr. Praveen kumar B, Armament Research & Development Establishment, Pune",
   "Dr. Rajeev Ranjan, Indian Institute of Science, Bengaluru",
-  "Dr. Ramesh Babu. Bharathidasan University, Trichy",
+  "Dr. Ramesh Babu R, Bharathidasan University, Trichy",
   "Dr. Ramesh R, Periyar University, Salem",
   "Dr. Sarma D.D, Indian Institute of Science, Bengaluru",
   "Dr. Sethuraman K, Central University of Tamilnadu. Thiruvarur",
@@ -37,6 +37,7 @@ const NATIONAL_MEMBERS = [
   "Dr. Srinivasan P, National Institute of Technology, Silchar",
   "Dr. Srinivasan K, Bharathiar University, Coimbatore",
   "Dr. Subramanian V, Indian Institute of Technology Madras, Chennai",
+  "Dr Suja Elizabeth, Indian Institute of Science, Bengaluru ",
   "Dr. Sundarakannan B, Manonmaniam Sundaranar University, Tirunelveli",
   "Dr. Vijayan N, CSIR- National Physical Laboratory, New Delhi",
   "Dr. Yusuf S. M., Bhabha Atomic Research Centre, Mumbai",
@@ -61,7 +62,7 @@ export default function CommitteeAdvisory() {
       <section className="max-w-7xl mx-auto w-full mt-16 px-4">
         <div>
           <div className="text-primary font-barlow uppercase text-5xl font-bold mb-4">
-            International Advisory Committee Members
+            International Advisory Committee 
           </div>
           <ul className="border-l-4 border-primary ml-4 sm:ml-12 pl-10">
             {INTERNATIONAL_MEMBERS.map((member, index) => (

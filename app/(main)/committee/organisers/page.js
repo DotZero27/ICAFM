@@ -7,7 +7,7 @@ import President from "@/assets/images/president.png";
 
 import P_Ramasamy from "@/assets/images/organisers/p-ramasamy.jpg";
 import Kennedy from "@/assets/images/organisers/kennedy.webp";
-import Radha from "@/assets/images/organisers/radha.jpeg";
+import Radha from "@/assets/images/organisers/radha.jpg";
 import Convener from "@/assets/images/organisers/convener.webp";
 
 const COPATRONS = [
@@ -116,7 +116,7 @@ export default function CommitteeOrganiser() {
       <div className="gap-10 sm:gap-0 sm:flex justify-between max-w-7xl w-full mx-auto mt-10 sm:mt-20">
         <div className="px-4 mt-4 sm:px-16">
           <div className="font-barlow text-primary font-bold text-5xl">
-            CO-ORDINATOR
+            CHAIRMAN
           </div>
           <div className="flex justify-between w-full gap-4 border-l-4 border-primary pl-16 ml-4 sm:ml-7 mt-8">
             {COORDINATOR.map(({ name, designation, image }, index) => (

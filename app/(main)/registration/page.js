@@ -65,7 +65,7 @@ export default function Registration() {
         <div className="lg:grid lg:grid-cols-2 gap-2 space-y-4 lg:space-y-0">
           <div className="row-span-4 border border-primary px-10 py-12 rounded-lg">
             <div className="font-barlow uppercase text-primary text-4xl font-bold mb-8">
-              Topics avalible for the Conf.
+              Topics 
             </div>
             <ul>
               {TOPICS.map((topic, index) => (

@@ -59,7 +59,7 @@ const SPEAKERS = [
     image: Speaker5,
   },
   {
-    name: "Prof.A. Arockiarajan",
+    name: "Prof. Arockiarajan a",
     university: "Indian Institute of Technology Madras, Chennai",
     image: Speaker6,
   },
@@ -74,7 +74,7 @@ const SPEAKERS = [
     image: Speaker8,
   },
   {
-    name: "Dr.S. Ganesamoorthy",
+    name: "Dr. Ganesamoorthy s",
     university: " IGCAR, Kalpakkam",
     image: Speaker9,
   },
@@ -106,7 +106,7 @@ const SPEAKERS = [
     image: Speaker16,
   },
   {
-    name: "Prof. Moorthy Babu. S",
+    name: "Prof. Moorthy Babu S",
     university: "Anna University, Chennai",
     image: Speaker17,
   },
@@ -231,7 +231,7 @@ export default function Page() {
         <div className="lg:grid lg:grid-cols-2 gap-2 space-y-4 lg:space-y-0">
           <div className="row-span-4 border border-primary px-10 py-12 rounded-lg">
             <div className="font-barlow uppercase text-primary text-4xl font-bold mb-8">
-              Topics avalible for the Conf.
+              Topics 
             </div>
             <ul>
               {TOPICS.map((topic, index) => (

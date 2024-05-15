@@ -14,7 +14,7 @@ export default function Navbar() {
           ICAFM-2024
         </div>
         <div className="font-bold sm:text-xl">
-          3<sup className="text-xs">RD</sup> INTERNATIONAL CONFERENCE ON
+          3<sup className="text-xs">rd</sup> INTERNATIONAL CONFERENCE ON
           <br /> ADVANCED FUNCTIONAL MATERIALS
         </div>
       </div>
