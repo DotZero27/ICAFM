@@ -61,7 +61,7 @@ export default function AboutUs() {
             About the Department
           </div>
           <div className="mt-8 space-y-8 mx-4 xl:mx-16">
-            <div className="w-full bg-[#D9D9D9] h-[35vh] rounded-xl" />
+            {/* <div className="w-full bg-[#D9D9D9] h-[35vh] rounded-xl" /> */}
             <div className="space-y-8">
               The Department of Physics was established in 1996. The Department
               has established Center for Crystal Growth in 2005, Optical Network
@@ -81,7 +81,7 @@ export default function AboutUs() {
             About the Conference
           </div>
           <div className="mt-8 space-y-8 mx-4 xl:mx-16">
-            <div className="w-full bg-[#D9D9D9] h-[35vh] rounded-xl" />
+            {/* <div className="w-full bg-[#D9D9D9] h-[35vh] rounded-xl" /> */}
             <div className="space-y-8">
               International conference on ‘Advanced Functional Materials’ is
               aimed at bringing together the scientists and experts to provide a
