@@ -20,7 +20,7 @@ const components = [
     href: "/committee/organisers",
   },
   {
-    title: "National Advisory",
+    title: "National Advisory Committee",
     href: "/committee/advisory",
   },
   {
