@@ -213,7 +213,6 @@ export default function Page() {
                     {university}
                   </div>
                 </div>
-                <Button className="bg-white text-black">View Details</Button>
               </div>
             ))}
         </div>

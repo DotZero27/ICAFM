@@ -123,7 +123,7 @@ export default function PublicationsAndAwards() {
                 </div>
                 <div className="flex justify-between">
                   Notification of Acceptance
-                  <span className="font-bold">15.09.2024 Onwards</span>
+                  <span className="font-bold">10.10.2024 </span>
                 </div>
                 <div className="flex justify-between">
                   Registration Closing Date

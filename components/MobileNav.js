@@ -48,7 +48,7 @@ const sidebarNav = [
         items: [],
       },
       {
-        title: "National Advisory",
+        title: "National Advisory Committee",
         href: "/committee/advisory",
         items: [],
       },

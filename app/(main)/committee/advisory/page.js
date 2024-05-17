@@ -37,8 +37,10 @@ const NATIONAL_MEMBERS = [
   "Dr. Srinivasan P, National Institute of Technology, Silchar",
   "Dr. Srinivasan K, Bharathiar University, Coimbatore",
   "Dr. Subramanian V, Indian Institute of Technology Madras, Chennai",
+  "Dr. Sudeep Verma ,DRDO-SSPL, Delhi",
   "Dr Suja Elizabeth, Indian Institute of Science, Bengaluru ",
   "Dr. Sundarakannan B, Manonmaniam Sundaranar University, Tirunelveli",
+  "Dr. Thakur O P,DRDO-SSPL, Delhi",
   "Dr. Vijayan N, CSIR- National Physical Laboratory, New Delhi",
   "Dr. Yusuf S. M., Bhabha Atomic Research Centre, Mumbai",
 ];
