@@ -16,17 +16,25 @@ import {
 
 const components = [
   {
+    title: "Patrons",
+    href: "/committee/patrons",
+  },
+  {
+    title: "Organising Committee",
+    href: "/committee/organising_committee",
+  },
+  {
     title: "International Advisory Committee",
-    href: "/committee/organisers",
+    href: "/committee/internation_advisory",
   },
   {
     title: "National Advisory Committee",
-    href: "/committee/advisory",
+    href: "/committee/national_advisory",
   },
   {
     title: "Local Organising Committee",
     href: "/committee/local",
-  },
+  }
 ];
 
 export function NavMenu() {

@@ -43,13 +43,23 @@ const sidebarNav = [
     title: "Organisers",
     items: [
       {
+        title: "Patrons",
+        href: "/committee/patrons",
+        items: [],
+      },
+      {
+        title: "Organising Committee",
+        href: "/committee/organising_committee",
+        items: [],
+      },
+      {
         title: "International Advisory Committee",
-        href: "/committee/organisers",
+        href: "/committee/internation_advisory",
         items: [],
       },
       {
         title: "National Advisory Committee",
-        href: "/committee/advisory",
+        href: "/committee/national_advisory",
         items: [],
       },
       {

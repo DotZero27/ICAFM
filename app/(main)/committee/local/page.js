@@ -20,16 +20,16 @@ export default function CommitteeLocal() {
         />
         <div className="absolute bg-primary opacity-70 w-full h-[28vh] -z-10" />
         <div className="flex flex-col items-center justify-center text-white text-7xl sm:text-8xl z-10 h-[28vh] font-barlow uppercase font-bold tracking-wide">
-          <div className="font-normal text-xl sm:text-4xl">Local</div>
+          <div className="font-normal text-xl sm:text-4xl">Local Organising</div>
           Committee
         </div>
       </div>
 
       <section className="max-w-7xl mx-auto w-full my-16 px-4">
         <div>
-          <div className="text-primary font-barlow uppercase text-5xl font-bold mb-4">
+          {/* <div className="text-primary font-barlow uppercase text-5xl font-bold mb-4">
             LOCAL ORGANIZING COMMITTEE
-          </div>
+          </div> */}
           <ul className="border-l-4 border-primary ml-4 sm:ml-12 pl-10">
             {LOCAL_MEMBERS.map((member, index) => (
               <li
