@@ -54,7 +54,7 @@ const sidebarNav = [
       },
       {
         title: "International Advisory Committee",
-        href: "/committee/internation_advisory",
+        href: "/committee/international_advisory",
         items: [],
       },
       {

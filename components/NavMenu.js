@@ -25,7 +25,7 @@ const components = [
   },
   {
     title: "International Advisory Committee",
-    href: "/committee/internation_advisory",
+    href: "/committee/international_advisory",
   },
   {
     title: "National Advisory Committee",
