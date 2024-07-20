@@ -6,7 +6,7 @@ import Logo from "@/assets/logoWhite.svg";
 import HomeBanner from "@/assets/homeBanner.jpeg";
 import Image from "next/image";
 
-import Book from "@/assets/images/book.jpeg";
+import Book from "@/assets/images/book.jpg";
 
 export default function PublicationsAndAwards() {
   return (
