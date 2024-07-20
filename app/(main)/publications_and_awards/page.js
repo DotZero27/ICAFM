@@ -51,7 +51,7 @@ export default function PublicationsAndAwards() {
             <div className="flex gap-2 col-start-2 row-span-2">
               <div className="flex items-center justify-center bg-primary w-full rounded-lg text-white">
 
-              <Image src={Book} className="w-20 antialiased " alt="book" />
+              <Image src={Book} className="w-24 antialiased " alt="book" />
 
               </div>
 

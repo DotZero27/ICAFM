@@ -141,7 +141,7 @@ export default function Registration() {
 
 
 
-          <div className="row-span-2 bg-primary px-10 py-12 text-white rounded-lg">
+          <div className="row-span-2 bg-primary px-10 py-12 text-white rounded-lg col-start-2">
             <div className="font-barlow font-bold text-4xl mb-6">
               FINANCIAL ASSISTANCE
             </div>
