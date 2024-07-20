@@ -38,23 +38,18 @@ export default function PublicationsAndAwards() {
               Manuscripts submitted will be peer-reviewed as per journal
               criteria and accepted manuscripts will be published in the special
               issue of the following Scopus-indexed journal(s). Information
-              about the journal and its scope can be found here:
-
-              Physica B: Condensed Matter (Impact Factor 2.8)
-
-
+              about the journal and its scope can be found here: Physica B:
+              Condensed Matter (Impact Factor 2.8)
             </div>
             <div className="row-start-2 text-primary font-bold mt-10">
               Selected papers will be published in Scopus/Web of Science indexed
               Journals.
             </div>
-            <div className="flex gap-2 col-start-2 row-span-2">
-              <div className="flex items-center justify-center bg-primary w-full rounded-lg text-white">
-
-              <Image src={Book} className="w-24 antialiased " alt="book" />
-
+            <div className="flex flex-col gap-2 col-start-2 row-span-2">
+              <div className="flex items-center justify-center bg-primary w-full rounded-lg text-white ">
+                <Image src={Book} className="antialiased " alt="book" />
               </div>
-
+              <div className="text-sm">Physica B: Condensed Matter (Impact Factor 2.8) </div>
             </div>
           </div>
         </div>

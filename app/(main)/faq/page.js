@@ -30,18 +30,15 @@ const questions = [
     content: (
       <>
         <div>
-        Accommodation will be provided in additional charge basis.
-        Accommodation shall be provided only to the outstation participants on prior request.
-
+          Accommodation will be provided in additional charge basis.
+          Accommodation shall be provided only to the outstation participants on
+          prior request.
         </div>
-        <div className="mt-2">
-        <br>Single Room with Attach Bath & A/C : Rs.2240 /Day</br>
-        <br>Double Room with Attach Bath & A/C : Rs.2464 /Day</br>
-        <br>Non A/C Sharing without Attach Bath : Rs.280/Day </br>
-
+        <div className="space-y-2 mt-6">
+          <p>Single Room with Attach Bath & A/C : Rs.2240 /Day</p>
+          <p>Double Room with Attach Bath & A/C : Rs.2464 /Day</p>
+          <p>Non A/C Sharing without Attach Bath : Rs.280/Day </p>
         </div>
-
-        
       </>
     ),
   },
@@ -123,16 +120,16 @@ export default function FAQ() {
   return (
     <section className="max-w-7xl w-full mx-auto mt-4 px-4">
       <div className="flex items-center gap-8">
-          <div className="font-barlow font-semibold uppercase text-primary text-4xl whitespace-nowrap my-8">
-            Frequently Asked Questions
-          </div>
-          <div className="hidden sm:block w-full">
-            <Separator className="bg-primary h-2 rounded-2xl" />
-          </div>
+        <div className="font-barlow font-semibold uppercase text-primary text-4xl whitespace-nowrap my-8">
+          Frequently Asked Questions
         </div>
+        <div className="hidden sm:block w-full">
+          <Separator className="bg-primary h-2 rounded-2xl" />
+        </div>
+      </div>
       {questions.map(({ title, content }, index) => (
         <Accordion key={index} type="single" collapsible>
-          <AccordionItem value={`item-${index+1}`}>
+          <AccordionItem value={`item-${index + 1}`}>
             <AccordionTrigger className="text-left">{title}</AccordionTrigger>
             <AccordionContent>{content}</AccordionContent>
           </AccordionItem>
