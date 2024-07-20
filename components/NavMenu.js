@@ -101,6 +101,14 @@ export function NavMenu() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
+          <Link href="/payment" legacyBehavior passHref>
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+              Payment
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem>
           <Link href="/contact-us" legacyBehavior passHref>
             <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
               Contact
