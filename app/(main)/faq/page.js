@@ -30,22 +30,18 @@ const questions = [
     content: (
       <>
         <div>
-          While registering for the conference please select the type of
-          accommodation you need. The available accommodation and charges are
-          mentioned below:
+        Accommodation will be provided in additional charge basis.
+        Accommodation shall be provided only to the outstation participants on prior request.
+
         </div>
         <div className="mt-2">
-          <strong>Ladies hostel:</strong>
-          <br /> Dorm Charges - Rs.389 per day (without cot) <br />2 Bed AC Room
-          - Rs.725 per day
-          <br /> 2 Bed Non-AC - Rs. 609 per day
+        <br>Single Room with Attach Bath & A/C : Rs.2240 /Day</br>
+        <br>Double Room with Attach Bath & A/C : Rs.2464 /Day</br>
+        <br>Non A/C Sharing without Attach Bath : Rs.280/Day </br>
+
         </div>
 
-        <div className="mt-2">
-          <strong>Men{"'"}s hostel:</strong>
-          <br />
-          Dormitory Charges: Rs 441 (per day per person)
-        </div>
+        
       </>
     ),
   },

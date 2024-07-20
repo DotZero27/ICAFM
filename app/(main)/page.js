@@ -32,6 +32,9 @@ import Speaker18 from "@/assets/images/speakers/pavan.jpg";
 import Speaker19 from "@/assets/images/speakers/praveen.jpg";
 import Speaker20 from "@/assets/images/speakers/saket.jpg";
 
+import Speaker21 from "@/assets/images/speakers/n1.jpg";
+import Speaker22 from "@/assets/images/speakers/n2.jpg";
+
 const SPEAKERS = [
   {
     name: "Prof. Kenji Uchino",
@@ -52,6 +55,19 @@ const SPEAKERS = [
     name: "Dr.Kensaku Maeda",
     university: "Institute for Materials Research, Tohoku University, Japan",
     image: Speaker4,
+  },
+
+   {
+    name: "Prof. Hajime Nagata",
+    university: "Tokyo University of Science",
+    image: Speaker21,
+  },
+
+
+  {
+    name: "Prof.Takeshi Momose",
+    university: "Kumamoto University, Japan",
+    image: Speaker22,
   },
   {
     name: "Prof. Rajeev Ranjan",

@@ -6,6 +6,8 @@ import Logo from "@/assets/logoWhite.svg";
 import HomeBanner from "@/assets/homeBanner.jpeg";
 import Image from "next/image";
 
+import Book from "@/assets/images/book.jpeg";
+
 export default function PublicationsAndAwards() {
   return (
     <>
@@ -36,7 +38,11 @@ export default function PublicationsAndAwards() {
               Manuscripts submitted will be peer-reviewed as per journal
               criteria and accepted manuscripts will be published in the special
               issue of the following Scopus-indexed journal(s). Information
-              about the journal and its scope can be found here.
+              about the journal and its scope can be found here:
+
+              Physica B: Condensed Matter (Impact Factor 2.8)
+
+
             </div>
             <div className="row-start-2 text-primary font-bold mt-10">
               Selected papers will be published in Scopus/Web of Science indexed
@@ -44,11 +50,11 @@ export default function PublicationsAndAwards() {
             </div>
             <div className="flex gap-2 col-start-2 row-span-2">
               <div className="flex items-center justify-center bg-primary w-full rounded-lg text-white">
-                TO BE PUBLISHED
+
+              <Image src={Book} className="w-20 antialiased " alt="book" />
+
               </div>
-              <div className="flex items-center justify-center bg-primary w-full rounded-lg text-white">
-                TO BE PUBLISHED
-              </div>
+
             </div>
           </div>
         </div>

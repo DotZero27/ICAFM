@@ -6,6 +6,10 @@ const INTERNATIONAL_MEMBERS = [
   "Prof. Kenji Uchino, The Pennsylvania State University, USA",
   "Prof. Kozo Fujiwara, Tohoku University, Japan",
   "Prof. Masashi Kato, Nagoya Institute of Technology, Japan",
+
+  "Prof. Hajime Nagata,Tokyo University of Science",
+  "Prof. Takeshi Momose,Kumamoto University, Japan",
+  
   "Prof. Noritaka Usami, Nagoya University, Japan",
   "Prof. Roberto Fornari University of Parma, Italy",
   "Prof. Yuji Noguchi, Kumamoto University, Japan",

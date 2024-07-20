@@ -48,7 +48,7 @@ export default function Registration() {
       </div>
 
       <div className="my-16">
-        <Link href="#" className="bg-primary text-white px-8 py-4 text-lg uppercase rounded-lg">
+        <Link href="https://forms.gle/9fhNqXtdYM4fb7dF8" className="bg-primary text-white px-8 py-4 text-lg uppercase rounded-lg">
           Register here
         </Link>
       </div>
@@ -65,7 +65,7 @@ export default function Registration() {
         <div className="lg:grid lg:grid-cols-2 gap-2 space-y-4 lg:space-y-0">
           <div className="row-span-4 border border-primary px-10 py-12 rounded-lg">
             <div className="font-barlow uppercase text-primary text-4xl font-bold mb-8">
-              Topics 
+              Topics
             </div>
             <ul>
               {TOPICS.map((topic, index) => (
@@ -106,36 +106,111 @@ export default function Registration() {
             </div>
             <div className="flex flex-col gap-8 justify-between text-lg">
               <div>
-                While registering for the conference please select the type of
-                accommodation you need. The available accommodation and charges
-                are mentioned below:
+                Accommodation will be provided in additional charge basis.
+                Accommodation shall be provided only to the outstation participants on prior request.
+
               </div>
 
               <div className="space-y-2">
                 <div className="font-bold">Ladies Hostel</div>
                 <div className="flex justify-between">
-                  Dorm Charges (without cot)
-                  <span className="font-bold">Rs.389 per day</span>
+                  Single Room with Attach Bath & A/C
+                  <span className="font-bold">Rs.2240 per day</span>
                 </div>
                 <div className="flex justify-between">
-                  2 Bed AC Room
-                  <span className="font-bold">Rs.725 per day</span>
+                  Double Room with Attach Bath & A/C
+                  <span className="font-bold">Rs.2464 per day</span>
                 </div>
                 <div className="flex justify-between">
-                  2 Bed Non-AC
-                  <span className="font-bold">Rs. 609 per day</span>
+                  Non A/C Sharing without Attach Bath
+                  <span className="font-bold">Rs. 280 per day</span>
                 </div>
               </div>
 
-              <div className="space-y-2">
+              {/*<div className="space-y-2">
                 <div className="font-bold">Men{"'"}s hostel:</div>
                 <div className="flex justify-between">
                   Dormitory Charges:
                   <span className="font-bold">Rs 441 <br/> (per day per person)</span>
                 </div>
+              </div>*/}
+            </div>
+          </div>
+
+
+
+
+
+          <div className="row-span-2 bg-primary px-10 py-12 text-white rounded-lg">
+            <div className="font-barlow font-bold text-4xl mb-6">
+              FINANCIAL ASSISTANCE
+            </div>
+            <div className="flex flex-col gap-8 justify-between text-lg">
+              <div>
+                Sleeper class train fare by the shortest route may be provided on request to a few deserving
+                research students and post-docs presenting their papers. Participants attending the conference
+                for all 3 days will be eligible for financial assistance.
+
               </div>
             </div>
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
     </section>

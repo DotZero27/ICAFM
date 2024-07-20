@@ -37,6 +37,7 @@ const sidebarNav = [
         href: "/about-us#conference",
         items: [],
       },
+      
     ],
   },
   {
@@ -51,6 +52,7 @@ const sidebarNav = [
         title: "Organising Committee",
         href: "/committee/organising_committee",
         items: [],
+
       },
       {
         title: "International Advisory Committee",
