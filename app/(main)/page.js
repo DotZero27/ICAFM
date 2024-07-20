@@ -22,7 +22,7 @@ import Speaker10 from "@/assets/images/speakers/subramanian.jpg";
 import Speaker11 from "@/assets/images/speakers/mahanth.jpg";
 import Speaker12 from "@/assets/images/speakers/shashwati.jpg";
 
-import Speaker13 from "@/assets/images/speakers/blank.webp";
+import Speaker13 from "@/assets/images/speakers/sudeep.jpg";
 import Speaker14 from "@/assets/images/speakers/blank.webp";
 import Speaker15 from "@/assets/images/speakers/varadarajan.jpg";
 import Speaker16 from "@/assets/images/speakers/balakumar.jpg";
@@ -34,6 +34,12 @@ import Speaker20 from "@/assets/images/speakers/saket.jpg";
 
 import Speaker21 from "@/assets/images/speakers/n1.jpg";
 import Speaker22 from "@/assets/images/speakers/n2.jpg";
+
+import Speaker23 from "@/assets/images/speakers/subrata.jpg";
+import Speaker24 from "@/assets/images/speakers/srinivasan.png";
+
+
+
 
 const SPEAKERS = [
   {
@@ -138,9 +144,21 @@ const SPEAKERS = [
   },
   {
     name: "Prof.Saket Asthana",
-    university: "Indian Institute of Technology Hyderabad",
+    university: "Indian Institute of Technology ,Hyderabad",
     image: Speaker20,
   },
+  
+  {
+    name: "Dr. Subrata Das",
+    university: "CSIR-NIIST, Thiruvananthapuram",
+    image: Speaker23,
+  },
+  {
+    name: "Dr. K Srinivasan",
+    university: "Bharathiar University, Coimbatore",
+    image: Speaker24,
+  },
+
 ];
 
 export default function Page() {

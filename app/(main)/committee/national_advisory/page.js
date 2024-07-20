@@ -43,6 +43,11 @@ const NATIONAL_MEMBERS = [
   "Dr. Thakur O P,DRDO-SSPL, Delhi",
   "Dr. Vijayan N, CSIR- National Physical Laboratory, New Delhi",
   "Dr. Yusuf S. M., Bhabha Atomic Research Centre, Mumbai",
+  "Dr. Subrata Das  ,CSIR-NIIST, Thiruvananthapuram",
+  "Dr. K Srinivasan , Bharathiar University, Coimbatore",
+  
+ 
+   
 ];
 
 export default function CommitteeAdvisory() {
