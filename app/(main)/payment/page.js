@@ -6,6 +6,7 @@ import Logo from "@/assets/logoWhite.svg";
 import HomeBanner from "@/assets/homeBanner.jpeg";
 import Image from "next/image";
 
+import Link from "next/link";
 
 export default function PublicationsAndAwards() {
     return (
