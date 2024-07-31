@@ -23,7 +23,7 @@ import Speaker11 from "@/assets/images/speakers/mahanth.jpg";
 import Speaker12 from "@/assets/images/speakers/shashwati.jpg";
 
 import Speaker13 from "@/assets/images/speakers/sudeep.jpg";
-import Speaker14 from "@/assets/images/speakers/blank.webp";
+import Speaker14 from "@/assets/images/speakers/n3.jpg";
 import Speaker15 from "@/assets/images/speakers/varadarajan.jpg";
 import Speaker16 from "@/assets/images/speakers/balakumar.jpg";
 

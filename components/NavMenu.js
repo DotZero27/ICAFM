@@ -85,9 +85,9 @@ export function NavMenu() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/publications_and_awards" legacyBehavior passHref>
+          <Link href="/payment" legacyBehavior passHref>
             <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
-              Publications and Awards
+              Payment
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -101,12 +101,16 @@ export function NavMenu() {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/payment" legacyBehavior passHref>
+          <Link href="/publications_and_awards" legacyBehavior passHref>
             <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
-              Payment
+              Publications and Awards
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+
+        
+
+        
 
         <NavigationMenuItem>
           <Link href="/contact-us" legacyBehavior passHref>

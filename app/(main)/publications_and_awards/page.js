@@ -145,15 +145,15 @@ export default function PublicationsAndAwards() {
                   <div className="font-bold">National:</div>
                   <div className="flex flex-col lg:flex-row justify-between">
                     Student/Research scholars
-                    <span className="font-bold">Rs. 500/- </span>
+                    <span className="font-bold">Rs. 2000/- </span>
                   </div>
                   <div className="flex justify-between">
                     Faculty members/Research Faculty
-                    <span className="font-bold">Rs. 1000/- </span>
+                    <span className="font-bold">Rs. 2500/- </span>
                   </div>
                   <div className="flex justify-between">
                     Industry participants
-                    <span className="font-bold">Rs. 1500/- </span>
+                    <span className="font-bold">Rs. 4000/- </span>
                   </div>
                 </div>
 
@@ -161,11 +161,11 @@ export default function PublicationsAndAwards() {
                   <div className="font-bold">International:</div>
                   <div className="flex justify-between">
                     Student/Research scholars
-                    <span className="font-bold">$20</span>
+                    <span className="font-bold">$50</span>
                   </div>
                   <div className="flex justify-between">
                     Faculty members
-                    <span className="font-bold">$40</span>
+                    <span className="font-bold">$100</span>
                   </div>
                 </div>
               </div>
