@@ -13,10 +13,11 @@ import { Menu } from "lucide-react";
 import Image from "next/image";
 
 const otherNav = [
-  { title: "Publication and Awards", href: "/publication_and_awards" },
+  { title: "Publication and Awards", href: "/publications_and_awards" },
   { title: "Topics", href: "/topics" },
   { title: "Registration", href: "/registration" },
   { title: "Contact", href: "/contact-us" },
+  { title: "Payment", href: "/payment" },
 ];
 const sidebarNav = [
   {

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 import Link from "next/link";
 
-export default function PublicationsAndAwards() {
+export default function Payment() {
     return (
         <>
             <div className="relative">
@@ -23,7 +23,7 @@ export default function PublicationsAndAwards() {
                 </div>
             </div>
 
-            <section className="max-w-7xl w-full mx-auto space-y-24 text-lg text-[#949494] mt-4 text-justify">
+            <section className="max-w-7xl w-full mx-auto space-y-24 text-lg text-[#949494] mt-4 text-justify px-4">
                 <div>
                     <div className="flex items-center gap-8">
                         <div className="font-barlow font-semibold uppercase text-primary text-4xl whitespace-nowrap my-8">
