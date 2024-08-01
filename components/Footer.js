@@ -7,11 +7,11 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="py-8 px-16 border-t border-primary mt-8">
+    <footer className="py-8 border-t border-primary mt-8">
       <div className="w-full mb-8">
         <div className="font-bold text-2xl text-primary text-center mb-4">Sponsors</div>
         <div className="text-sm">
-          <marquee behavior="scroll" direction="right" className="w-full flex items-center">
+          <marquee behavior="scroll" direction="right" className="w-1/4 mx-auto flex items-center">
             <Link href={"#"}>
               <Image src={s1} className="inline-block w-32 h-20 mb-4 mr-16" alt="sponsor1" />
             </Link>
