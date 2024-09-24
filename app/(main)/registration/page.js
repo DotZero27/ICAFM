@@ -115,11 +115,11 @@ export default function Registration() {
                 
                 <div className="flex justify-between">
                   Single Room with Attach Bath & A/C
-                  <span className="font-bold">Rs.2240 per day</span>
+                  <span className="font-bold">Rs.1150 per day</span>
                 </div>
                 <div className="flex justify-between">
                   Double Room with Attach Bath & A/C
-                  <span className="font-bold">Rs.2464 per day</span>
+                  <span className="font-bold">Rs.1250 per day</span>
                 </div>
                 <div className="flex justify-between">
                   Non A/C Sharing without Attach Bath

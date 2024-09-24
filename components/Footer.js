@@ -3,6 +3,7 @@ import Image from "next/image";
 import Logo from "@/assets/logo.svg";
 import s1 from "@/assets/images/sponsor1.jpg";
 import s2 from "@/assets/images/sponsor2.jpg";
+import s3 from "@/assets/images/sponsor3.jpg";
 import Link from "next/link";
 
 export default function Footer() {
@@ -17,6 +18,9 @@ export default function Footer() {
             </Link>
             <Link href={"#"}>
               <Image src={s2} className="inline-block w-28 h-24 mb-4 mr-16" alt="sponsor2" />
+            </Link>
+            <Link href={"#"}>
+              <Image src={s3} className="inline-block w-28 h-24 mb-4 mr-16" alt="sponsor3" />
             </Link>
           </marquee>
         </div>

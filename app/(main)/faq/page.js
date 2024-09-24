@@ -35,8 +35,8 @@ const questions = [
           prior request.
         </div>
         <div className="space-y-2 mt-6">
-          <p>Single Room with Attach Bath & A/C : Rs.2240 /Day</p>
-          <p>Double Room with Attach Bath & A/C : Rs.2464 /Day</p>
+          <p>Single Room with Attach Bath & A/C : Rs.1150 /Day</p>
+          <p>Double Room with Attach Bath & A/C : Rs.1250 /Day</p>
           <p>Non A/C Sharing without Attach Bath : Rs.280/Day </p>
         </div>
       </>
